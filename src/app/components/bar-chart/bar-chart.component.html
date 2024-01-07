@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="header">
+        Project Distribution
+    </div>
+    <div class="filters">
+        <div class="filter">
+            <mat-form-field>
+                <mat-label>Team</mat-label>
+                <mat-select (selectionChange)="onFilterChanged($event)" [formControl]="teamCtrl">
+                    <mat-option *ngFor="let p of teams" [value]="p.name">{{p.name}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <div class="filter">
+            <mat-form-field>
+                <mat-label>Priorities</mat-label>
+                <mat-select (selectionChange)="onFilterChanged($event)" [formControl]="priorityCtrl" multiple>
+                    <mat-option *ngFor="let p of priorities" [value]="p">{{p}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <div class="filter">
+            <mat-form-field>
+                <mat-label>Stages</mat-label>
+                <mat-select (selectionChange)="onFilterChanged($event)" [formControl]="stageCtrl" multiple>
+                    <mat-option *ngFor="let p of stageMaster" [value]="p">{{p}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+    </div>
+    <div style="margin-top: 20px;">
+        <div id="Bar"></div>
+    </div>
+</div>

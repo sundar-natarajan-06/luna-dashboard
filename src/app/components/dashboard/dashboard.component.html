@@ -1,0 +1,20 @@
+<div class="flex-container">
+    <!-- <div id="Gantt" style="width: 70%;height: 50%;"></div> -->
+    <div style="flex: 75%;max-width: 70%;">
+        <div class="lhs-container">
+            <div class="kpi">
+                <div class="header" style="margin-top: 15px;">
+                    Key Performance Indicators
+                </div>
+            </div>
+            <div style="flex:50%;">
+                <app-gantt-chart *ngIf="projects.length" [members]="members" [projects]="projects"
+                    [teams]="teams"></app-gantt-chart>
+            </div>
+        </div>
+    </div>
+    <div class="rhs-container">
+        <app-bar-chart *ngIf="projects.length" [members]="members" [projects]="projects"
+            [teams]="teams"></app-bar-chart>
+    </div>
+</div>

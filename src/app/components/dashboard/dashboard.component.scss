@@ -1,0 +1,24 @@
+.flex-container {
+    height: 98vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; //center of the div
+    // align-items: center; //middle of the div
+    // align-content: center; //middle of the div if wrap is on. flex lines
+}
+
+.kpi{
+    flex: 35% 0;
+    background: white;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.lhs-container{
+    display: flex;flex-direction: column;height: 100%;padding-left: 15px;padding-top: 15px;
+}
+
+.rhs-container{
+    flex: 25%;text-align: center;padding: 15px;
+}

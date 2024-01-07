@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Engineering 1",
+        "members": [
+            "Eng1",
+            "Eng2",
+            "Eng3"
+        ]
+    },
+    {
+        "name": "Engineering 2",
+        "members": [
+            "Eng4",
+            "Eng5",
+            "Eng6"
+        ]
+    },
+    {
+        "name": "Product",
+        "members": [
+            "Prod1",
+            "Prod2"
+        ]
+    },
+    {
+        "name": "Design",
+        "members": [
+            "D1",
+            "D2"
+        ]
+    },
+    {
+        "name": "Marketing",
+        "members": [
+            "M1",
+            "M2"
+        ]
+    }
+]

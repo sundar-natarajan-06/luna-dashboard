@@ -1,0 +1,197 @@
+[
+    {
+        "id": 1,
+        "title": "Sports category on Netflix",
+        "priority": "P0",
+        "progress": "10%",
+        "stage": "Scoping",
+        "status": "At risk",
+        "labels": [
+            "revenue",
+            "board meeting",
+            "TV",
+            "mobile"
+        ],
+        "risks": 3,
+        "startDate": "11-1-2023",
+        "launchDate": "2-27-2024",
+        "owner": "Prod1",
+        "participants": [
+            "Eng1",
+            "Eng4",
+            "D1"
+        ],
+        "blockedBy": "",
+        "blocking": ""
+    },
+    {
+        "id": 2,
+        "title": "Public landing page",
+        "priority": "P0",
+        "progress": "100%",
+        "stage": "Launched",
+        "status": "At risk",
+        "labels": [
+            "mobile",
+            "users"
+        ],
+        "risks": 3,
+        "startDate": "9-4-2023",
+        "launchDate": "10-16-2023",
+        "owner": "Prod1",
+        "participants": [
+            "Eng1",
+            "Eng4",
+            "D1"
+        ],
+        "blockedBy": "",
+        "blocking": ""
+    },
+    {
+        "id": 3,
+        "title": "Search box",
+        "priority": "P0",
+        "progress": "80%",
+        "stage": "Testing",
+        "status": "On track",
+        "labels": [
+            "mobile",
+            "desktop",
+            "users"
+        ],
+        "risks": 0,
+        "startDate": "10-9-2023",
+        "launchDate": "1-9-2024",
+        "owner": "Prod1",
+        "participants": [
+            "Eng2",
+            "Eng3",
+            "M1"
+        ],
+        "blockedBy": "",
+        "blocking": ""
+    },
+    {
+        "id": 4,
+        "title": "Search suggestions",
+        "priority": "P1",
+        "progress": "60%",
+        "stage": "Implementation",
+        "status": "On track",
+        "labels": [
+            "mobile",
+            "desktop",
+            "users"
+        ],
+        "risks": 0,
+        "startDate": "10-16-2023",
+        "launchDate": "1-16-2024",
+        "owner": "Prod1",
+        "participants": [
+            "Eng2",
+            "Eng3",
+            "M1"
+        ],
+        "blockedBy": "",
+        "blocking": ""
+    },
+    {
+        "id": 5,
+        "title": "Checkout page",
+        "priority": "P0",
+        "progress": "40%",
+        "stage": "Implementation",
+        "status": "On track",
+        "labels": [
+            "mobile",
+            "desktop",
+            "users",
+            "board meeting"
+        ],
+        "risks": 2,
+        "startDate": "11-6-2023",
+        "launchDate": "1-2-2024",
+        "owner": "Prod2",
+        "participants": [
+            "Eng3",
+            "Eng5",
+            "M2"
+        ],
+        "blockedBy": "",
+        "blocking": "Payment Gateway"
+    },
+    {
+        "id": 6,
+        "title": "Payment gateway",
+        "priority": "P0",
+        "progress": "20%",
+        "stage": "Design",
+        "status": "At risk",
+        "labels": [
+            "mobile",
+            "desktop",
+            "users",
+            "board meeting"
+        ],
+        "risks": 1,
+        "startDate": "11-13-2023",
+        "launchDate": "1-8-2024",
+        "owner": "Prod2",
+        "participants": [
+            "Eng4",
+            "Eng5",
+            "Eng6"
+        ],
+        "blockedBy": "Checkout page",
+        "blocking": ""
+    },
+    {
+        "id": 7,
+        "title": "Catalog sorting",
+        "priority": "P1",
+        "progress": "50%",
+        "stage": "Implementation",
+        "status": "At risk",
+        "labels": [
+            "AI",
+            "mobile",
+            "desktop"
+        ],
+        "risks": 0,
+        "startDate": "11-6-2023",
+        "launchDate": "11-30-2023",
+        "owner": "Prod2",
+        "participants": [
+            "Eng4",
+            "Eng5",
+            "Eng6"
+        ],
+        "blockedBy": "",
+        "blocking": "Advanced catalog sorting"
+    },
+    {
+        "id": 8,
+        "title": "Advanced catalog sorting",
+        "priority": "P2",
+        "progress": "0%",
+        "stage": "Not started",
+        "status": "On track",
+        "labels": [
+            "AI",
+            "mobile",
+            "desktop"
+        ],
+        "risks": 0,
+        "startDate": "11-1-2023",
+        "launchDate": "12-12-2023",
+        "owner": "Prod2",
+        "participants": [
+            "Eng4",
+            "Eng5",
+            "Eng6",
+            "M1"
+        ],
+        "blockedBy": "Catalog sorting",
+        "blocking": ""
+    }
+]
